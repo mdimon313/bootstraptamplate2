@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+    /* font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section {
+    background-color: #E7F6FA;
+}
+
+/*  ! CUSTOM STYLE */
+
+/* !--------- HEADER ------------ */
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.top-menu {
+    font-size: 12px;
+}
+form i {
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    transform: translateY(-50%);
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+    color: #EE393F;
+}
+.color {
+    color: #EE393F;
+}
+
+.top-icons {
+    background: #fff;
+    box-shadow: 0px 5px 15px 0px #545454;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* !--------------------- banner ------------ */
+.banner {
+    padding: 0 !important;
+}
+.carousel {
+    max-height: 100vh;
+    overflow: hidden;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    width: 33%;
+}
+.carousel-caption .banner-text {
+    font-size: 3.5rem;
+}
+.carousel-caption .banner-text span {
+    color: #EE393F;
+}
+.carousel-caption p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* !------------- MAIN CONTENT ------------- */
+.content-shadow {
+    margin-top: -60px;
+    z-index: 9;
+    position: relative;
+}
+.wrapper-box-1 {
+    background-color: #EF1C26;
+}
+.wrapper-box-2 {
+    background-color: #EE393F !important;
+}
+.wrapper-box-3 {
+    background-color: #F14B53;
+}
+.wrapper h2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+.wrapper p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+/* .row>* {
+    padding-left: 0;
+    padding-right: 0;
+} */
+
